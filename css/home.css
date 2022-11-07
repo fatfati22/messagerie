@@ -1,0 +1,27 @@
+aside {
+    height: 100vh;
+    min-width: 400px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid black;
+}
+.mini {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+.nomListeUser {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+.nomListeUser:hover {
+    background-color: lightgrey;
+}
+.nomListe {
+    margin-left: 5px;
+}
