@@ -1,0 +1,28 @@
+.bonA {
+    background-color: blue;
+    width: 50%;
+    display: block ruby;
+    margin: 0 auto;
+}
+.bonB {
+    background-color: rgb(246, 51, 51);
+    width: 50%;
+    display: block ruby;
+}
+
+.place {
+    display: flex;
+}
+
+.msg {
+    width: 1000px;
+    height: 100px;
+}
+
+.aaaaaaa {
+    display: flex;
+    margin: auto;
+}
+.beau {
+    margin-left: 150px;
+}

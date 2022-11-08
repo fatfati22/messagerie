@@ -15,6 +15,8 @@ if (isset($email) && isset($password)) {
             session_start();
             $_SESSION["id"] = $result["id"];
             $_SESSION["pseudo"] = $result["pseudo"];
+            $_SESSION["avatar"] = $result["avatar"];
+
             header("Location: home.php");
         } else {
             echo "mauvais mot de passe";

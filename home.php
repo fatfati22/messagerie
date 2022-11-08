@@ -17,7 +17,10 @@ if(!isset($_SESSION["id"])) {
     <link rel="stylesheet" href="./css/home.css">
 </head>
 <body>
-    <h1>Bienvenue <?= $_SESSION["pseudo"]?></h1>
+    <div class="home">
+        <h1>Bienvenue <?= $_SESSION["pseudo"]?></h1>
+        <img class="imghome" src="./images/<?= $_SESSION["avatar"]?>" alt="fff">
+    </div>
     <aside id="aside"></aside>
     <a href="deconnexion.php">Déconnexion</a>
     <script src="home.js"></script>
